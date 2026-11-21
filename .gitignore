@@ -1,0 +1,39 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.DS_Store
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.tox/
+build/
+dist/
+*.egg-info/
+# Environment secrets
+.env.*
+!.env.example
+
+# Python environments
+backend/venv/
+backend/.venv/
+
+# Local databases and user data
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime files
+*.log
+# Local habit records
+backend/data/habits.json
